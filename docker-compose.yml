@@ -25,7 +25,7 @@ services:
       - pgAdmin:/var/lib/pgadmin
 
   api:
-    image: mi-proyecto-django
+    image: gasca123/mi-proyecto-django:latest
     container_name: django_app
     restart: always
     depends_on:
